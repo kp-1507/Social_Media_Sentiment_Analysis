@@ -1,0 +1,107 @@
+[
+  {
+    "hashtag_id": "HT0001",
+    "hashtag": "#TechNews",
+    "category": "Entertainment",
+    "avg_daily_mentions": 33055,
+    "is_trending": true
+  },
+  {
+    "hashtag_id": "HT0002",
+    "hashtag": "#AI",
+    "category": "Technology",
+    "avg_daily_mentions": 34054,
+    "is_trending": true
+  },
+  {
+    "hashtag_id": "HT0003",
+    "hashtag": "#DataEngineering",
+    "category": "Science",
+    "avg_daily_mentions": 10890,
+    "is_trending": true
+  },
+  {
+    "hashtag_id": "HT0004",
+    "hashtag": "#Cloud",
+    "category": "Science",
+    "avg_daily_mentions": 46586,
+    "is_trending": true
+  },
+  {
+    "hashtag_id": "HT0005",
+    "hashtag": "#Innovation",
+    "category": "Science",
+    "avg_daily_mentions": 34106,
+    "is_trending": false
+  },
+  {
+    "hashtag_id": "HT0006",
+    "hashtag": "#Python",
+    "category": "Technology",
+    "avg_daily_mentions": 16523,
+    "is_trending": true
+  },
+  {
+    "hashtag_id": "HT0007",
+    "hashtag": "#BigData",
+    "category": "Politics",
+    "avg_daily_mentions": 18086,
+    "is_trending": true
+  },
+  {
+    "hashtag_id": "HT0008",
+    "hashtag": "#AWS",
+    "category": "Science",
+    "avg_daily_mentions": 40367,
+    "is_trending": true
+  },
+  {
+    "hashtag_id": "HT0009",
+    "hashtag": "#Azure",
+    "category": "Politics",
+    "avg_daily_mentions": 42107,
+    "is_trending": true
+  },
+  {
+    "hashtag_id": "HT0010",
+    "hashtag": "#GCP",
+    "category": "Politics",
+    "avg_daily_mentions": 38153,
+    "is_trending": true
+  },
+  {
+    "hashtag_id": "HT0011",
+    "hashtag": "#Kubernetes",
+    "category": "Business",
+    "avg_daily_mentions": 43270,
+    "is_trending": false
+  },
+  {
+    "hashtag_id": "HT0012",
+    "hashtag": "#DevOps",
+    "category": "Politics",
+    "avg_daily_mentions": 2799,
+    "is_trending": true
+  },
+  {
+    "hashtag_id": "HT0013",
+    "hashtag": "#MachineLearning",
+    "category": "Technology",
+    "avg_daily_mentions": 3079,
+    "is_trending": false
+  },
+  {
+    "hashtag_id": "HT0014",
+    "hashtag": "#DataScience",
+    "category": "Business",
+    "avg_daily_mentions": 37595,
+    "is_trending": false
+  },
+  {
+    "hashtag_id": "HT0015",
+    "hashtag": "#FinTech",
+    "category": "Politics",
+    "avg_daily_mentions": 41976,
+    "is_trending": true
+  }
+]

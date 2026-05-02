@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+
+  producer:
+    build: ./services/producer
+    container_name: producer
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    healthcheck:
+      test: ["CMD", "python", "healthcheck.py"]
+      interval: 10s
+      retries: 5
+
+  enricher:
+    build: ./services/enricher
+    container_name: enricher
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      producer:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "healthcheck.py"]
+      interval: 10s
+      retries: 5
